@@ -1,0 +1,4 @@
+# A program that sort a list of numbers odd first followed by even.
+def my_sort(x):
+    return sorted([i for i in x if i%2==1]) + sorted([i for i in x if i%2 == 0])
+
