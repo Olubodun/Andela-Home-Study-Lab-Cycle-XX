@@ -1,4 +1,4 @@
-#This program checks a string of word without a repeating letter.
+#This program checks if a string of word is without a repeating letter.
 def is_isogram(string):
     if isinstance(string, str) and len(string) != 0:
         string = string.lower()
